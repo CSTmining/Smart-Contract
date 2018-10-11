@@ -1,0 +1,1 @@
+geth --networkid 666 --maxpeers 3 --rpc --rpcaddr localhost --rpcport "7999" --rpccorsdomain "*" --datadir ".testnet" --port "30301" --nodiscover --targetgaslimit 7000000 --rpcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" console
